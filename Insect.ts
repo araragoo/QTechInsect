@@ -291,7 +291,7 @@ namespace Insect {
     //% subcategory="Switch"
     //% blockId=setRadio block="radio Group:1<=>83 %n"
     //% weight=85
-    //% n.min=1 n.max=83
+    //% n.min=1 n.max=83 n.defl=1
     export function radioGroup(n: number): void {
         radio.setGroup(n)
     }
